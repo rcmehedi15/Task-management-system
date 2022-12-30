@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Task Management System | Mehedi </title>
+    <link rel="shortcut icon" href="image/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxl-airbnb'></i>
+      <span class="logo_name">Divine IT</span>
+    </div>
+    <ul class="nav-links">
+      
+      <li>
+        <a href="#">
+          <i class="bx bx-grid-alt"></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Dashboard</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-layer'></i>
+            <span class="link_name">Department</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Department</a></li>
+          <li><a href="#">Add List</a></li>
+          <li><a href="#">Manage List</a></li>
+         
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class="bx bxs-group"></i>
+            <span class="link_name">Employee</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Employee</a></li>
+          <li><a href="#">Add</a></li>
+          <li><a href="#">Manage List</a></li>
+        
+        </ul>
+      </li>
+      
+     
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class="bx bx-task"></i>
+            <span class="link_name">Task</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Task</a></li>
+          <li><a href="#">Add</a></li>
+          <li><a href="#">Manage</a></li>
+          
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-id-card"></i>
+          <span class="link_name">Task Status</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Task Status</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-report'></i>
+          <span class="link_name">Task Report</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Task Report</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Setting</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <img src="image/profile.jpeg" alt="profileImg" >
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Md Mehedi Hasan</div>
+        <div class="job">Admin</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">Dashboard</span>
+      <span class="login"><a href="login.html" target="_blank">Login/Register</a></span>
+    </div>
+    
+    
+  </section>
+
+    <!-- Card Start , Total-->
+
+    <section class="task-status">
+      <div class="text">Task Status</div>
+    </section>
+    <section>
+      <div class="card-containers">
+        <div class="card-group Card-PrimaryColor1">
+          <div class="card">
+            <h1 class="card-heading">Total Task</h1>
+          </div>
+            <div class="card-body">
+              
+              <h2>30</h2>
+    
+            </div>
+            <div class="card-footer">
+              <p>Show Info</p>
+            </div>
+        </div>
+  
+        <!-- card 2  -->
+        <div class="card-group Card-PrimaryColor2">
+          <div class="card">
+            <h1 class="card-heading">Complete</h1>
+          </div>
+            <div class="card-body">
+              
+              <h2>30</h2>
+    
+            </div>
+            <div class="card-footer">
+              <p>Show Info</p>
+            </div>
+        </div>
+  
+        <!-- card 3 -->
+        <div class="card-group Card-PrimaryColor3">
+          <div class="card">
+            <h1 class="card-heading">Pending</h1>
+          </div>
+            <div class="card-body">
+              
+              <h2>30</h2>
+    
+            </div>
+            <div class="card-footer">
+              <p>Show Info</p>
+            </div>
+        </div>
+  
+        <!-- card 4 -->
+        <div class="card-group Card-PrimaryColor4">
+          <div class="card">
+            <h1 class="card-heading">Progress</h1>
+          </div>
+            <div class="card-body">
+              
+              <h2>30</h2>
+    
+            </div>
+            <div class="card-footer">
+              <p>Show Info</p>
+            </div>
+        </div>
+      </div>
+     
+      
+    </section>
+    
+  <script src="script.js"></script>
+
+</body>
+</html>
